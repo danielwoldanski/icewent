@@ -1,0 +1,541 @@
+.icewent_logo{
+	float:left;
+}	
+
+.mobile-menu{
+	display:none!important;
+}
+
+.Banner_logo_mobile{
+	display:none;
+}
+
+.icewent_image{
+	
+	margin-left:20px;
+	margin-top:8px;
+	float:left;
+	height:70px;
+	transition: all 0.6s;
+}	
+
+.icewent_image:hover{
+	 transform: rotate(-5deg);
+}
+
+.menu_float{
+	margin-top:40px;
+	margin-left:20px;
+	margin-right:50px;
+	float:left;
+	width:calc(100% - 296px);
+}
+
+.fix{
+	padding-right:50px;
+}
+
+/* Menu */
+
+.Klimatyzacja_Menu{
+	transition: opacity 0.8s;
+	position:fixed;
+	top:0;
+	left:0;
+	height:100px;
+	background-color:#fff;
+	width:100%;
+	opacity:0.6;
+	-webkit-box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.4);
+	box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.4);
+}
+
+.menu {
+  list-style: none;
+  width: 100%;
+  min-height:30px;
+  position: relative;
+}
+
+.menu li {
+	float: left;
+    width: 16.66%;
+    height: 100%;
+ }
+  
+.menu a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #004995;
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+	font-weight:bold;
+    z-index: 100;
+	transition: opacity .6s;
+  }
+  
+.menu a:hover{
+	opacity: 1;
+}
+
+li.slider {
+  width: 1%;
+  margin-left:35px;
+  border-radius: 3px;
+  height: 6px;
+  position: absolute;
+  left: 0;
+  bottom:-5px;
+  transition: left 0.5s, background-color .4s, margin-left 0.5s, width 0.5s;
+}
+
+.menu li:nth-child(1):hover ~ .slider {
+  width: 155px;
+  margin-left:10px;
+  left: 0;
+  background-color: #004995;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 125px;
+  margin-left:25px;
+  left: 16.66%;
+  background-color: #004995;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 145px;
+  margin-left:15px;
+  left: 33.32%;
+  background-color: #004995;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 85px;
+  margin-left:45px;
+  left: 49.98%;
+  background-color: #004995;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 90px;
+  margin-left:18px;
+  left: 66.64%;
+  background-color: #004995;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 185px;
+  margin-left:-58px;
+  left: 88.3%;
+  background-color: #004995;
+}
+
+.Banner_logo{
+	opacity:0.3;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:100px;
+	width:400px;
+	display:none;
+}
+
+.mobile-menu{
+	display:none;
+}
+
+
+@media only screen and (min-width:1310px) and (max-width:1320px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 145px;
+  margin-left:10px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 115px;
+  margin-left:25px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 135px;
+  margin-left:15px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 77px;
+  margin-left:45px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 80px;
+  margin-left:20px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 175px;
+  margin-left:-53px;
+}
+
+
+	
+}
+
+@media only screen and (min-width:1260px) and (max-width:1309px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 135px;
+  margin-left:15px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 110px;
+  margin-left:25px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 133px;
+  margin-left:15px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 65px;
+  margin-left:50px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 70px;
+  margin-left:23px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 167px;
+  margin-left:-50px;
+}
+	.mobile-menu{
+	display:none;
+}
+	
+}
+
+@media only screen and (min-width:1190px) and (max-width:1259px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 135px;
+  margin-left:10px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 110px;
+  margin-left:20px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 133px;
+  margin-left:10px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 65px;
+  margin-left:45px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 70px;
+  margin-left:18px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 167px;
+  margin-left:-52px;
+}
+	.mobile-menu{
+	display:none;
+}
+	
+}
+
+@media only screen and (min-width:1150px) and (max-width:1189px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 135px;
+  margin-left:5px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 113px;
+  margin-left:15px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 135px;
+  margin-left:5px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 66px;
+  margin-left:40px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 72px;
+  margin-left:13px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 167px;
+  margin-left:-52px;
+}
+	.mobile-menu{
+	display:none;
+}
+	
+}
+
+@media only screen and (min-width:1080px) and (max-width:1149px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 135px;
+  margin-left:0px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 113px;
+  margin-left:10px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 138px;
+  margin-left:0px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 63px;
+  margin-left:35px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 65px;
+  margin-left:8px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 167px;
+  margin-left:-54px;
+}
+	.mobile-menu{
+	display:none;
+}
+	
+}
+
+@media only screen and (min-width:1040px) and (max-width:1079px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 125px;
+  margin-left:0px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 105px;
+  margin-left:10px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 130px;
+  margin-left:0px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 60px;
+  margin-left:35px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 65px;
+  margin-left:8px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 160px;
+  margin-left:-54px;
+}
+
+.menu a {
+    font-size: 16px;
+  }
+	
+	
+.Klimatyzacja_Menu{
+	height:80px;
+}
+
+.icewent_image{
+	
+	height:60px;
+}	
+
+.menu_float{
+	margin-top:32px;
+}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1039px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 120px;
+  margin-left:0px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 100px;
+  margin-left:10px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 120px;
+  margin-left:0px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 60px;
+  margin-left:30px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 65px;
+  margin-left:3px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 160px;
+  margin-left:-54px;
+}
+
+.menu a {
+    font-size: 16px;
+  }
+	
+	
+.Klimatyzacja_Menu{
+	height:80px;
+}
+
+.icewent_image{
+	
+	height:60px;
+	
+}	
+
+.menu_float{
+	margin-top:30px;
+	width:calc(100% - 270px);
+}
+}
+
+@media only screen and (min-width:960px) and (max-width:999px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 117px;
+  margin-left:1px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 100px;
+  margin-left:10px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 120px;
+  margin-left:0px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 60px;
+  margin-left:30px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 65px;
+  margin-left:3px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 160px;
+  margin-left:-54px;
+}
+
+.menu a {
+    font-size: 16px;
+  }
+	
+	
+.Klimatyzacja_Menu{
+	height:80px;
+}
+
+.icewent_image{
+	
+	height:60px;
+	
+}	
+.menu_float{
+	margin-top:32px;
+	width:calc(100% - 265px);
+}
+}
+
+@media only screen and (min-width:850px) and (max-width:959px){
+	
+.menu li:nth-child(1):hover ~ .slider {
+  width: 117px;
+  margin-left:1px;
+}
+.menu li:nth-child(2):hover ~ .slider {
+  width: 100px;
+  margin-left:10px;
+}
+.menu li:nth-child(3):hover ~ .slider {
+  width: 120px;
+  margin-left:0px;
+}
+.menu li:nth-child(4):hover ~ .slider {
+  width: 60px;
+  margin-left:30px;
+}
+
+.menu li:nth-child(5):hover ~ .slider {
+  width: 65px;
+  margin-left:3px;
+}
+
+.menu li:nth-child(6):hover ~ .slider {
+  width: 160px;
+  margin-left:-54px;
+}
+
+.menu a {
+    font-size: 14px;
+  }
+	
+	
+.Klimatyzacja_Menu{
+	height:80px;
+}
+
+.icewent_image{
+	
+	height:50px;
+	margin-top:14px;
+	
+}	
+
+.menu_float{
+	margin-top:32px;
+	width:calc(100% - 240px);
+}
+.mobile-menu{
+	display:none;
+}
+}
+
+@media only screen and (min-width:100px) and (max-width:849px){
+	
+.Klimatyzacja_Menu{	
+		display:none;
+}
+
+
+.mobile-menu{
+	display:block!important;
+}
+.Banner_logo_mobile{
+	
+	opacity:0.4;
+	padding-left:15px;
+	margin-top:5px;
+	display:block;
+	position:fixed;
+	width:120px;
+	z-index:2000;
+}
+
+}
